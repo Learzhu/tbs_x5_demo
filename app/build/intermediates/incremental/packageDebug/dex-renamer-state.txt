@@ -1,0 +1,4 @@
+#Mon Mar 20 13:58:32 CST 2017
+base.0=F\:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=F\:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

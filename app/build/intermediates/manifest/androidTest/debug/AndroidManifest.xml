@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.example.test_webview_omed.test">
+
+    <uses-sdk android:minSdkVersion="11" android:targetSdkVersion="19" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="cn.example.test_webview_omed"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for cn.example.test_webview_omed"/>
+</manifest>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\learzhu\AndroidProjects\tbs_x5_demo\app\src\main\jniLibs"><file name="armeabi/liblbs.so" path="F:\learzhu\AndroidProjects\tbs_x5_demo\app\src\main\jniLibs\armeabi\liblbs.so"/></source></dataSet><dataSet config="debug"><source path="F:\learzhu\AndroidProjects\tbs_x5_demo\app\src\debug\jniLibs"/></dataSet></merger>

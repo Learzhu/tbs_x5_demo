@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="F:\learzhu\AndroidProjects\tbs_x5_demo\app\libs\tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f00d52294abe76de6168e4cb964536788bfd336">
+        <dex dex="F:\learzhu\AndroidProjects\tbs_x5_demo\app\build\intermediates\pre-dexed\debug\tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143_3d4f9862f2970cf0acf2b354aedbcd8b0bae377d.jar" />
+    </item>
+
+</items>
