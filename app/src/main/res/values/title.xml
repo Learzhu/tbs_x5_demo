@@ -13,7 +13,7 @@
         <item>TBS Flash播放</item>
         <item>定制长按功能</item>
         <item>过量下拉</item>
-        <item>调用简版QB</item>
+        <item>调用简版QB【Fragment】</item>
     </string-array>
 
 </resources>

@@ -198,7 +198,9 @@ public class MainActivity extends Activity {
                         }
                         break;
                         case TBSS_SMALL_QB: {
-
+                            //测试跳转到Fragment的Actiity
+                            intent = new Intent(MainActivity.this, BrowserInFragmentActivity.class);
+                            MainActivity.this.startActivity(intent);
                         }
                         break;
                     }
