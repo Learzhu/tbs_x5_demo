@@ -12,7 +12,7 @@
         <item>TBS Flash播放</item>
         <item>定制长按功能</item>
         <item>过量下拉</item>
-        <item>调用简版QB</item>
+        <item>调用简版QB【Fragment】</item>
     </string-array>
     <string-array name="tips">
         <item>文件选择器</item>
@@ -21,6 +21,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="action_settings">设置</string>
     <string name="app_name">X5功能演示</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="tag"> (X5内核功能演示)</string>
     <string name="tip">普通接入直接参考“APPApplication” “BrowserActivity” “X5WebView”中相关实现即可</string>

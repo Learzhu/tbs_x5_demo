@@ -9,7 +9,7 @@
                     "startOffset": 55,
                     "endLine": 15,
                     "endColumn": 19,
-                    "endOffset": 451
+                    "endOffset": 461
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\title.xml",
@@ -19,7 +19,7 @@
                         "startOffset": 59,
                         "endLine": 16,
                         "endColumn": 19,
-                        "endOffset": 468
+                        "endOffset": 478
                     }
                 }
             },
@@ -27,10 +27,10 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 456,
+                    "startOffset": 466,
                     "endLine": 18,
                     "endColumn": 19,
-                    "endOffset": 529
+                    "endOffset": 539
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\tips.xml",
@@ -48,9 +48,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 534,
+                    "startOffset": 544,
                     "endColumn": 57,
-                    "endOffset": 587
+                    "endOffset": 597
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\dimens.xml",
@@ -67,9 +67,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 592,
+                    "startOffset": 602,
                     "endColumn": 55,
-                    "endOffset": 643
+                    "endOffset": 653
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\dimens.xml",
@@ -86,9 +86,9 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 648,
+                    "startOffset": 658,
                     "endColumn": 46,
-                    "endOffset": 690
+                    "endOffset": 700
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\strings.xml",
@@ -105,9 +105,9 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 695,
+                    "startOffset": 705,
                     "endColumn": 43,
-                    "endOffset": 734
+                    "endOffset": 744
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\strings.xml",
@@ -124,9 +124,28 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 739,
+                    "startOffset": 749,
+                    "endColumn": 69,
+                    "endOffset": 814
+                },
+                "from": {
+                    "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 463,
+                        "endColumn": 69,
+                        "endOffset": 528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 819,
                     "endColumn": 52,
-                    "endOffset": 787
+                    "endOffset": 867
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\strings.xml",
@@ -141,11 +160,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 792,
+                    "startOffset": 872,
                     "endColumn": 43,
-                    "endOffset": 831
+                    "endOffset": 911
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\strings.xml",
@@ -160,11 +179,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 836,
+                    "startOffset": 916,
                     "endColumn": 93,
-                    "endOffset": 925
+                    "endOffset": 1005
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\strings.xml",
@@ -179,11 +198,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 930,
+                    "startOffset": 1010,
                     "endColumn": 65,
-                    "endOffset": 991
+                    "endOffset": 1071
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\strings.xml",
@@ -198,12 +217,12 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 996,
-                    "endLine": 33,
+                    "startOffset": 1076,
+                    "endLine": 34,
                     "endColumn": 12,
-                    "endOffset": 1282
+                    "endOffset": 1362
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\styles.xml",
@@ -219,12 +238,12 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 1287,
-                    "endLine": 36,
+                    "startOffset": 1367,
+                    "endLine": 37,
                     "endColumn": 12,
-                    "endOffset": 1442
+                    "endOffset": 1522
                 },
                 "from": {
                     "file": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\values\\styles.xml",

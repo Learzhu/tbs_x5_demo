@@ -12,6 +12,10 @@
         "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_browser.xml",
+        "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\layout\\fragment_browser.xml"
+    },
+    {
         "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\java_to_js_layout.xml",
         "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\layout\\java_to_js_layout.xml"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\web_tips_layout.xml",
         "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\layout\\web_tips_layout.xml"
+    },
+    {
+        "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_browser_in_fragment.xml",
+        "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\layout\\activity_browser_in_fragment.xml"
     },
     {
         "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_advanced.xml",

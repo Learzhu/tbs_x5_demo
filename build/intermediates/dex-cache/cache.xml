@@ -3,12 +3,39 @@
 
     <item
         is-multidex="false"
+        jar="F:\learzhu\AndroidProjects\tbs_x5_demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="F:\learzhu\AndroidProjects\tbs_x5_demo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_b94ea79fc5cc0da83ead63545e7f74c1fbf61829.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\learzhu\AndroidProjects\tbs_x5_demo\app\libs\tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="6f00d52294abe76de6168e4cb964536788bfd336">
         <dex dex="F:\learzhu\AndroidProjects\tbs_x5_demo\app\build\intermediates\pre-dexed\debug\tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143_3d4f9862f2970cf0acf2b354aedbcd8b0bae377d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="F:\learzhu\AndroidProjects\tbs_x5_demo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_a710e577cbcc5b9c24c85b2f28c89d8d38dfd293.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\learzhu\AndroidProjects\tbs_x5_demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="F:\learzhu\AndroidProjects\tbs_x5_demo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_a33526c537629d8fa213620d5f9a4c5851168f63.jar" />
     </item>
 
 </items>

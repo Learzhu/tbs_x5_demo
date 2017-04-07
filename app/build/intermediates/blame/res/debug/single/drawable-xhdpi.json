@@ -8,12 +8,12 @@
         "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_openfile_normal0.png"
     },
     {
-        "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\search.png",
-        "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
-    },
-    {
         "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\two_divisions.png",
         "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\two_divisions.png"
+    },
+    {
+        "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\search.png",
+        "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
     },
     {
         "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fullscreen.png",
@@ -32,12 +32,12 @@
         "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\imageselect.png"
     },
     {
-        "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\theme_toolbar_btn_menu_fg_normal.png",
-        "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_menu_fg_normal.png"
-    },
-    {
         "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\people.png",
         "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\people.png"
+    },
+    {
+        "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\theme_toolbar_btn_menu_fg_normal.png",
+        "source": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\src\\main\\res\\drawable-xhdpi\\theme_toolbar_btn_menu_fg_normal.png"
     },
     {
         "merged": "F:\\learzhu\\AndroidProjects\\tbs_x5_demo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\theme_adrbar_btn_refresh_normal0.png",

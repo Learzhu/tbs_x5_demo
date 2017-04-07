@@ -96,6 +96,11 @@
             android:label="@string/app_name" >
         </activity>
         <activity
+            android:name="cn.example.test_webview_omed.BrowserInFragmentActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
             android:name="cn.example.test_webview_omed.ImageResultActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/app_name" >
