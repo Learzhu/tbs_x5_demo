@@ -1,7 +1,5 @@
 package cn.example.test_webview_omed.utils;
 
-import java.util.HashMap;
-
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,8 +18,10 @@ import com.tencent.smtt.export.external.interfaces.JsResult;
 import com.tencent.smtt.export.external.interfaces.MediaAccessPermissionsCallback;
 import com.tencent.smtt.sdk.WebViewCallbackClient;
 
+import java.util.HashMap;
+
 public class X5WebViewEventHandler extends ProxyWebViewClientExtension implements IX5WebChromeClientExtension{
-	
+
 	/**
 	 * 这个类用于实现由于X5webview适配架构导致的部分client回调不会发生，或者回调中传入的值不正确
 	 * 这个方法中所有的interface均是直接从内核中获取值并传入内核，请谨慎修改
@@ -31,29 +31,35 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	 * 			返回false表示需要内核使用默认机制处理事件
 	 */
 	private X5WebView webView; //the vote of x5webview
-	
+
 	public X5WebViewEventHandler(X5WebView webView){
 		this.webView = webView;
 		this.webView.setWebViewCallbackClient(callbackClient);
-		
+
 	}
+
+//	public X5WebViewEventHandler(JSWebView webView) {
+//		this.webView = webView;
+//		this.webView.setWebViewCallbackClient(callbackClient);
+//
+//	}
 
 	@Override
 	public void acquireWakeLock() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void addFlashView(View arg0, LayoutParams arg1) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void exitFullScreenFlash() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -77,13 +83,13 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	@Override
 	public void h5videoExitFullScreen(String arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void h5videoRequestFullScreen(String arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -97,13 +103,13 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	public void onAllMetaDataFinished(IX5WebViewExtension arg0,
 			HashMap<String, String> arg1) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void onBackforwardFinished(int arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -131,19 +137,19 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	public void onPrepareX5ReadPageDataFinished(IX5WebViewExtension arg0,
 			HashMap<String, String> arg1) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void onPromptNotScalable(IX5WebViewExtension arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void onPromptScaleSaved(IX5WebViewExtension arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -156,43 +162,43 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	@Override
 	public void onX5ReadModeAvailableChecked(HashMap<String, String> arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void releaseWakeLock() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void requestFullScreenFlash() {
 		// TODO Auto-generated method stub
-		
+
 	}
-	
-	
+
+
 	/////////////////////////////////////////////////////
-	
+
 	/**
 	 * 这里使用内核的事件回调链接到对应webview的事件回调
 	 */
 	private WebViewCallbackClient callbackClient = new WebViewCallbackClient() {
-		
+
 		@Override
 		public boolean onTouchEvent(MotionEvent event, View view) {
 			Log.i("yuanhaizhou", "tbs_onTouchEvent view is " + view.getClass().toString());
-			return webView.tbs_onTouchEvent(event, view);			
+			return webView.tbs_onTouchEvent(event, view);
 		}
 
 
 		@Override
 		public boolean overScrollBy(int deltaX, int deltaY, int scrollX,
 				int scrollY, int scrollRangeX, int scrollRangeY,
-				int maxOverScrollX, int maxOverScrollY, 
+				int maxOverScrollX, int maxOverScrollY,
 				boolean isTouchEvent, View view) {
-			return webView.tbs_overScrollBy(deltaX, deltaY, scrollX, scrollY, 
-					scrollRangeX, scrollRangeY, maxOverScrollX, maxOverScrollY, 
+			return webView.tbs_overScrollBy(deltaX, deltaY, scrollX, scrollY,
+					scrollRangeX, scrollRangeY, maxOverScrollX, maxOverScrollY,
 					isTouchEvent, view);
 		}
 
@@ -205,12 +211,12 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 		@Override
 		public void onOverScrolled(int scrollX, int scrollY, boolean clampedX,
 				boolean clampedY, View view) {
-			webView.tbs_onOverScrolled(scrollX, scrollY, clampedX, clampedY, view);			
+			webView.tbs_onOverScrolled(scrollX, scrollY, clampedX, clampedY, view);
 		}
 
 		@Override
 		public void onScrollChanged(int l, int t, int oldl, int oldt, View view) {
-			webView.tbs_onScrollChanged(l, t, oldl, oldt, view);	
+			webView.tbs_onScrollChanged(l, t, oldl, oldt, view);
 		}
 
 		@Override
@@ -223,29 +229,29 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 			return webView.tbs_onInterceptTouchEvent(ev, view);
 		}
 	};
-	
-	
+
+
 	//////////////////////////////////////////////////////////////////////
 	/**
 	 * 这里是内核代理的事件处理方法
 	 */
-	
+
 	@Override
 	public Object onMiscCallBack(String method,
 			Bundle bundle) {
 
 		return null;
 	}
-	
+
 	@Override
 	public boolean onTouchEvent(MotionEvent event, View view) {
 		return callbackClient.onTouchEvent(event, view);
 	}
-	
+
 	   // 1
 	public boolean onInterceptTouchEvent(MotionEvent ev, View view) {
 		return callbackClient.onInterceptTouchEvent(ev, view);
-	}	
+	}
 
 	// 3
 	public boolean dispatchTouchEvent(MotionEvent ev, View view) {
@@ -253,10 +259,10 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	}
 	// 4
 	public boolean overScrollBy(int deltaX, int deltaY, int scrollX, int scrollY,
-			                    int scrollRangeX, int scrollRangeY, 
+			                    int scrollRangeX, int scrollRangeY,
 			                    int maxOverScrollX, int maxOverScrollY,
 			                    boolean isTouchEvent, View view) {
-		return callbackClient.overScrollBy(deltaX, deltaY, scrollX, scrollY, 
+		return callbackClient.overScrollBy(deltaX, deltaY, scrollX, scrollY,
 				scrollRangeX, scrollRangeY, maxOverScrollX, maxOverScrollY, isTouchEvent, view);
 	}
 	// 5
@@ -264,7 +270,7 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
     	callbackClient.onScrollChanged(l, t, oldl, oldt, view);
 	}
     // 6
-    public void onOverScrolled(int scrollX, int scrollY, boolean clampedX, 
+    public void onOverScrolled(int scrollX, int scrollY, boolean clampedX,
 			boolean clampedY, View view) {
     	callbackClient.onOverScrolled(scrollX, scrollY, clampedX, clampedY, view);
 	}
@@ -276,7 +282,7 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	@Override
 	public void onPrintPage() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -290,7 +296,7 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	public void openFileChooser(ValueCallback<Uri[]> arg0, String arg1,
 			String arg2) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 
@@ -298,19 +304,19 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 	@Override
 	public void onColorModeChanged(long arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void jsExitFullScreen() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void jsRequestFullScreen() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -327,6 +333,6 @@ public class X5WebViewEventHandler extends ProxyWebViewClientExtension implement
 
 
 
-	
+
 
 }

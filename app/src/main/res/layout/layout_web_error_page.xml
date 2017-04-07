@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="断网了"
+        android:textColor="@color/blackText"
+        android:textSize="18sp"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_error"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_launcher"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tv_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_error"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/refresh"
+        android:text="刷新"
+        android:textColor="@color/blackText"
+        android:visibility="visible"/>
+</RelativeLayout>

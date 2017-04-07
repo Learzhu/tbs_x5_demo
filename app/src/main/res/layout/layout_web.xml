@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="49dp">
+    <!--android:paddingTop="22dp"-->
+    <!--android:paddingTop="@*android:dimen/status_bar_height">-->
+    <!--android:paddingTop="@android:dimen/status_bar_height">-->
+    <!--android:paddingTop="?android:attr/statusbarSize">-->
+
+    <include layout="@layout/layout_title_web"/>
+
+    <cn.example.test_webview_omed.views.MultipleStateLayout
+        android:id="@+id/layout_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ViewStub
+            android:id="@+id/state_loading_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_loading_page"/>
+
+        <ViewStub
+            android:id="@+id/state_error_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/layout_web_error_page"/>
+
+        <cn.example.test_webview_omed.views.JSWebView
+            android:id="@+id/js_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+    </cn.example.test_webview_omed.views.MultipleStateLayout>
+</LinearLayout>

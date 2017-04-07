@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <!--点击浏览网页的界面-->
+    <ViewStub
+        android:id="@+id/viewStub_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_web"/>
+
+    <!--<include-->
+    <!--layout="@layout/layout_toolbar"/>-->
+
+    <!--底部导航栏-->
+    <!--<cn.zhangyoukeji.browser.jisou.view.view.NavigatorBar-->
+    <!--android:id="@+id/navigator_bar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="49dp"-->
+    <!--android:layout_gravity="bottom"/>-->
+
+    <!--底部的用于取消酷站编辑的按钮-->
+    <TextView
+        android:id="@+id/tv_cancel_drag"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_gravity="bottom"
+        android:background="@color/grayStroke"
+        android:gravity="center"
+        android:text="取消"
+        android:textSize="16sp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</FrameLayout>

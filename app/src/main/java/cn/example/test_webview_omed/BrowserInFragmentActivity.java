@@ -48,7 +48,9 @@ public class BrowserInFragmentActivity extends Activity {
         }
 
         setContentView(R.layout.activity_browser_in_fragment);
-        BrowserFragment browserFragment = new BrowserFragment();
+
+//        BrowserFragment browserFragment = new BrowserFragment();
+        BrowserJSFragment browserFragment = new BrowserJSFragment();
         android.app.FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.browser_content_ll, browserFragment);
         fragmentTransaction.commit();
