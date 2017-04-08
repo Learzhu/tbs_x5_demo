@@ -1,9 +1,26 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:id="@+id/browser_content_ll"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:orientation="vertical"
-              tools:context="cn.example.test_webview_omed.MainActivity">
+<!--方法一正常-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fitsSystemWindows="true"
+                android:orientation="vertical"
+                tools:context="cn.example.test_webview_omed.MainActivity">
 
-</LinearLayout>
+    <FrameLayout
+        android:id="@+id/browser_content_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</RelativeLayout>
+
+    <!--方法二出现底部大片截屏-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/browser_content_ll"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="@color/blackGalleryBg"-->
+    <!--android:orientation="vertical"-->
+    <!--tools:context="cn.example.test_webview_omed.MainActivity">-->
+
+    <!--</LinearLayout>-->
