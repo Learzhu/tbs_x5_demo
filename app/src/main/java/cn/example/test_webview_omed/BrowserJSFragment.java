@@ -80,10 +80,13 @@ public class BrowserJSFragment extends BaseFragment implements IWebView {
         ibStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (ibStop.getTag() == null) {
-                    return;
+//                if (ibStop.getTag() == null) {
+//                    return;
+//                }
+//                webView.reload();
+                if (webView.canGoBack()) {
+                    webView.goBack();
                 }
-                webView.reload();
             }
         });
     }
